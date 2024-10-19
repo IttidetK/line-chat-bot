@@ -74,3 +74,5 @@ if __name__ == "__main__":
     # print(result)
     # ส่งผลลัพธ์กลับไปในรูปแบบ JSON
     print(json.dumps({"result": result}))
+    
+    
