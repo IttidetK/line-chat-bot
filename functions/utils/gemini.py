@@ -66,13 +66,13 @@ def sale_ex(prompt):
 
 if __name__ == "__main__":
     # อ่าน input จาก Node.js ผ่านทาง argument ที่ส่งมา
-    # input_data = sys.argv[1] 
-    input_data = 'ขอราคาของกระเบื้อง  สีขาวพราวนภา'
+    input_data = sys.argv[1] 
+    # input_data = 'ขอราคาของกระเบื้อง  สีขาวพราวนภา'
     # เรียกใช้งานฟังก์ชัน
     prompt = create_prompt(input_data)
     result = sale_ex(prompt)
-    print(result)
+    # print(result)
     # ส่งผลลัพธ์กลับไปในรูปแบบ JSON
-    # print(json.dumps({"result": result}))
+    print(json.dumps({"result": result}))
     
     
